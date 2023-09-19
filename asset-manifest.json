@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/personalblog/static/css/main.6165ca1b.css",
+    "main.js": "/personalblog/static/js/main.8ec63303.js",
+    "static/js/787.a361b86b.chunk.js": "/personalblog/static/js/787.a361b86b.chunk.js",
+    "static/media/pngwing.com.png": "/personalblog/static/media/pngwing.com.34c7ef7ebc07647bd7e8.png",
+    "index.html": "/personalblog/index.html",
+    "main.6165ca1b.css.map": "/personalblog/static/css/main.6165ca1b.css.map",
+    "main.8ec63303.js.map": "/personalblog/static/js/main.8ec63303.js.map",
+    "787.a361b86b.chunk.js.map": "/personalblog/static/js/787.a361b86b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6165ca1b.css",
+    "static/js/main.8ec63303.js"
+  ]
+}
