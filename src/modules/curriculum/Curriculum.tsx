@@ -8,7 +8,15 @@ export const Curriculum = () => {
   const workExperience = [
     {
       id: 1,
-      date: "Feb 2023 - Aug 2024",
+      date: "Sept 2023 - Present",
+      company: "ToniConecta",
+      role: "Full stack developer",
+      description:
+        "Updtate and maintain the company's website. Develop new systems for the company.",
+    },
+    {
+      id: 2,
+      date: "Feb 2023 - Aug 2023",
       company: "The ksquare group",
       role: "JavaScript developer trainee",
       description:
