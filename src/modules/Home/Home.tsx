@@ -114,11 +114,12 @@ export const Home = ({ isMobile }: ModuleProps) => {
           lg={8}
           xxl={8}
           style={{
-            marginBlock: "5rem",
+            marginBlock: "5%",
             display: "flex",
             flexDirection: "column",
             alignItems: "right",
             textAlign: "right",
+            justifyContent: "center",
           }}
         >
           <h1 style={headingStyle}>
@@ -147,13 +148,14 @@ export const Home = ({ isMobile }: ModuleProps) => {
           xxl={4}
           className="d-flex flex-column align-items-center justify-content-center"
           style={{
-            margin: "0 auto",
             overflow: "hidden",
           }}
         >
           <Image
             src={img}
             style={{
+              borderRadius: "50%",
+              paddingBottom: "2rem",
               width: "400px",
               height: "400px",
               margin: "0 auto",
