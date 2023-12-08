@@ -147,9 +147,6 @@ export const Home = ({ isMobile }: ModuleProps) => {
           lg={4}
           xxl={4}
           className="d-flex flex-column align-items-center justify-content-center"
-          style={{
-            overflow: "hidden",
-          }}
         >
           <Image
             src={img}
@@ -160,6 +157,7 @@ export const Home = ({ isMobile }: ModuleProps) => {
               height: "400px",
               margin: "0 auto",
               objectFit: "contain",
+              boxShadow: "0 4px 6px -4px rgba(0, 0, 0, 0.5)",
             }}
           />
         </Col>
