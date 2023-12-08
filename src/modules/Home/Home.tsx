@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
 import { colorPalette } from "../../styles/partials/colors";
 import { StrongComp } from "../../components/StrongComp/StrongComp";
-import img from "../../assets/pngwing.com.png";
+import img from "../../assets/ProfilePicture.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ModuleProps } from "../../types/interfaces/ModuleProps";
 
@@ -33,14 +33,13 @@ export const Home = ({ isMobile }: ModuleProps) => {
           paddingBlock: "10%",
         }}
       >
-        <Row>
+        <Row style={{ maxWidth: "100%" }}>
           <Col
             lg={4}
             xxl={4}
             className="d-flex flex-column align-items-center justify-content-center"
             style={{
               margin: "0 auto",
-              overflow: "hidden",
             }}
           >
             <Image
@@ -63,9 +62,16 @@ export const Home = ({ isMobile }: ModuleProps) => {
               flexDirection: "column",
               alignItems: "right",
               textAlign: "left",
+              wordWrap: "break-word",
+              overflow: "hidden",
             }}
           >
-            <h1 style={headingStyle}>
+            <h1
+              style={{
+                ...headingStyle,
+                fontSize: "1.5rem",
+              }}
+            >
               Hi, my name is{" "}
               <StrongComp color={colorPalette.strongestGreen}>
                 Braulio Estrada
@@ -151,7 +157,6 @@ export const Home = ({ isMobile }: ModuleProps) => {
               width: "400px",
               height: "400px",
               margin: "0 auto",
-              marginTop: "4px",
               objectFit: "contain",
             }}
           />
