@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6165ca1b.css",
-    "main.js": "/static/js/main.7af78388.js",
+    "main.js": "/static/js/main.aa3576f2.js",
     "static/js/787.a361b86b.chunk.js": "/static/js/787.a361b86b.chunk.js",
     "static/media/pngwing.com.png": "/static/media/pngwing.com.34c7ef7ebc07647bd7e8.png",
     "static/media/PokeAPI.png": "/static/media/PokeAPI.6965a1999d00d1e14721.png",
@@ -9,11 +9,11 @@
     "static/media/ToniConectaLanding.jpg": "/static/media/ToniConectaLanding.abf1a910df629d34aabd.jpg",
     "index.html": "/index.html",
     "main.6165ca1b.css.map": "/static/css/main.6165ca1b.css.map",
-    "main.7af78388.js.map": "/static/js/main.7af78388.js.map",
+    "main.aa3576f2.js.map": "/static/js/main.aa3576f2.js.map",
     "787.a361b86b.chunk.js.map": "/static/js/787.a361b86b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6165ca1b.css",
-    "static/js/main.7af78388.js"
+    "static/js/main.aa3576f2.js"
   ]
 }
