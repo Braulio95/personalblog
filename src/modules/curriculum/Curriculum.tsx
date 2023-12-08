@@ -3,8 +3,9 @@ import { Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import { ExpComp } from "../../components/ExpComp/ExpComp";
 import { SubtitleComp } from "../../components/SubtitleComp/SubtitleComp";
+import { ModuleProps } from "../../types/interfaces/ModuleProps";
 
-export const Curriculum = () => {
+export const Curriculum = ({ isMobile }: ModuleProps) => {
   const workExperience = [
     {
       id: 1,
@@ -49,7 +50,7 @@ export const Curriculum = () => {
       className="home"
       style={{
         paddingInline: "5%",
-        height: "100%",
+        minHeight: isMobile ? "calc(100vh - 62px)" : "calc(100vh - 62px)",
         paddingBottom: "10%",
         marginBottom: "8%",
       }}

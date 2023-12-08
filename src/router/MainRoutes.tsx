@@ -8,7 +8,11 @@ import NavBarComp from "../components/NavBar/NavBarComp";
 import { MAIN_ROUTES } from "../constants/routes";
 import { Curriculum } from "../modules/curriculum/Curriculum";
 
-export const MainRoutes = () => {
+interface MainRoutesProps {
+  isMobile: boolean;
+}
+
+export const MainRoutes = ({ isMobile }: MainRoutesProps) => {
   const { HOME, PORTFOLIO, CURRICULUM } = MAIN_ROUTES;
   const navTabs = [
     {
@@ -34,9 +38,9 @@ export const MainRoutes = () => {
       {/* Header and navigation */}
       <NavBarComp pageName="Braulio Blog" tabItems={navTabs} />
       {/* Main Content */}
-      <Home />
-      <Portfolio />
-      <Curriculum />
+      <Home isMobile={isMobile} />
+      <Portfolio isMobile={isMobile} />
+      <Curriculum isMobile={isMobile} />
       {/* Footer and contact info */}
       <Footer />
     </BrowserRouter>

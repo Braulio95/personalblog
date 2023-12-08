@@ -4,8 +4,9 @@ import CardComp from "../../components/CardComp/CardComp";
 import { StrongComp } from "../../components/StrongComp/StrongComp";
 import { colorPalette } from "../../styles/partials/colors";
 import { projects } from "../../data/projects";
+import { ModuleProps } from "../../types/interfaces/ModuleProps";
 
-export const Portfolio = () => {
+export const Portfolio = ({ isMobile }: ModuleProps) => {
   return (
     <Container
       id="portfolio"
@@ -13,7 +14,7 @@ export const Portfolio = () => {
       className="home"
       style={{
         paddingInline: "5%",
-        height: "100%",
+        minHeight: isMobile ? "calc(100vh - 62px)" : "calc(100vh - 62px)",
         paddingBottom: "10%",
         marginBottom: "10%",
       }}
